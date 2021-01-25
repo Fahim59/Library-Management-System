@@ -1,0 +1,34 @@
+Welcome to Library Management System, a complete C# Project using Visual Studio 2013 and MS SQL 2013
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Functionality
+-------------
+>> Admin can insert/update/delete students, can deposite money in student's account
+>> Admin can insert/update/delete books
+>> Admin can update/delete Issue books list
+>> Admin Issue Books to students
+>> Admin can send students Email if anyone does not retun books in due time
+>> Admin can send anyone email, by attaching or without attaching any file(One file at a time, for multiple zip files can be used)
+>> Admin can see the IssueBooks history and export the details in a file and send email to specific student.
+>> Admin can Delete the Issuebook History
+>> Admin can see the Deposit History
+>> Admin can see the How many Books, Users and Book are Issued currently in the system(Summary)
+>> Admin can sell books from the store
+>> Admin can print any of the Invoice from the database
+>> Admin can see the total Book purchase history
+>> Admin can change password
+----------------------------------------------------------------------------------------------------------------------------------
+>> Student has balance in his/her account, initially the balance is 0
+>> Student can search book (which are available or not)
+>> Student can return only his/her books which are issued to him/her
+>> Student can update his/her profile
+>> Student can change password
+>> Student can buy books
+
+-> Login (Admin + Student)
+-> Registration (Student)
+-> From any frame users can logout
+-> Books can be searched by category
+-> The Library has a Book Store from where anyone can buy books
+-> From any frame information can be searched
+-> After each successful Book order an Invoice will be generated automatically

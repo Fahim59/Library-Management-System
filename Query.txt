@@ -1,0 +1,26 @@
+>>Update IssueBook SET fine = CASE when DATEDIFF(d,duedate,returndate)>0 then (DATEDIFF(d,duedate,returndate)) *10 else 0 end where loanId = 'l003'
+
+>>UPDATE Student set Student.fine = IssueBook.fine from Student, IssueBook where IssueBook.studentId = 'f001'
+
+>>UPDATE Student set balance = balance - fine, fine = 0 Where StudentId = '" + l.StudentId + "'
+
+>>"Update student set balance = balance + " + Convert.ToInt32(txtbox1.Text) + ";"
+
+>>ALter table IssueBook
+Add Constraint Fk_bookId
+Foreign Key(bookId) References Book(bookId)
+// Alter table statement conflicted with foreign key( Jodi database e amn kono value thake jeta vul then eta show korbe. So oi value delete kore then query dile execute hobe )
+
+
+>>select bookId from Book where quantity > 0
+select name from Student where studentId = 'f001'
+
+
+>>delete top(1) from History where loanId = 5 (History Delete)
+
+>>SELECT COUNT(userId) FROM [User];
+SELECT COUNT(bookId) FROM Book;
+SELECT COUNT(loanId) FROM IssueBook Where status = 'Issued';
+
+>>DBCC CHECKIDENT (Print_Invoice,RESEED, 0)  // Jeta theke dibo seta theke shuru
+

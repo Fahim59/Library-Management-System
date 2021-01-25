@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C612CD8-3AF7-44F5-972A-571019C63472}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFrame.Designer.cs">
+      <DependentUpon>AdminFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookFrame.Designer.cs">
+      <DependentUpon>BookFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseConnection.cs" />
+    <Compile Include="DepositHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositHistory.Designer.cs">
+      <DependentUpon>DepositHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email.Designer.cs">
+      <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryFrame.Designer.cs">
+      <DependentUpon>HistoryFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice_Report\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice_Report\PrintInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice_Report\PrintInvoice.Designer.cs">
+      <DependentUpon>PrintInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceFrame.Designer.cs">
+      <DependentUpon>InvoiceFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanListFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoanListFrame.Designer.cs">
+      <DependentUpon>LoanListFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyBookFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyBookFrame.Designer.cs">
+      <DependentUpon>MyBookFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordFrame.Designer.cs">
+      <DependentUpon>PasswordFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationFrame.Designer.cs">
+      <DependentUpon>RegistrationFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBookFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBookFrame.Designer.cs">
+      <DependentUpon>SearchBookFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellBookFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellBookFrame.Designer.cs">
+      <DependentUpon>SellBookFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentFrame.Designer.cs">
+      <DependentUpon>StudentFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentHome.Designer.cs">
+      <DependentUpon>StudentHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SummaryFrame.Designer.cs">
+      <DependentUpon>SummaryFrame.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminFrame.resx">
+      <DependentUpon>AdminFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookFrame.resx">
+      <DependentUpon>BookFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositHistory.resx">
+      <DependentUpon>DepositHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.resx">
+      <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryFrame.resx">
+      <DependentUpon>HistoryFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_Report\Invoice.rdlc" />
+    <EmbeddedResource Include="Invoice_Report\PrintInvoice.resx">
+      <DependentUpon>PrintInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceFrame.resx">
+      <DependentUpon>InvoiceFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanListFrame.resx">
+      <DependentUpon>LoanListFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyBookFrame.resx">
+      <DependentUpon>MyBookFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordFrame.resx">
+      <DependentUpon>PasswordFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrationFrame.resx">
+      <DependentUpon>RegistrationFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBookFrame.resx">
+      <DependentUpon>SearchBookFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellBookFrame.resx">
+      <DependentUpon>SellBookFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentFrame.resx">
+      <DependentUpon>StudentFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentHome.resx">
+      <DependentUpon>StudentHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryFrame.resx">
+      <DependentUpon>SummaryFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Invoice_Report\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Invoice_Report\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Invoice_Report\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return Books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoanList.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BookFrame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return Books1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loan1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADHome.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PC.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Student.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thankyoudribble.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send-email.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1481627834876-b7833e8f5570.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1524995997946-a1c2e315a42f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1549675584-91f19337af3d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1522211988038-6fcbb8c12c7e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1579370318443-8da816457e3d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1548048026-5a1a941d93d3.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

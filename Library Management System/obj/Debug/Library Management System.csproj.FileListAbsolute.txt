@@ -1,0 +1,68 @@
+E:\Library Management System\Library Management System\bin\Debug\Library Management System.exe.config
+E:\Library Management System\Library Management System\obj\Debug\Library Management System.csprojResolveAssemblyReference.cache
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.Form1.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+E:\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.Cache
+E:\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+E:\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+E:\Library Management System\Library Management System\obj\Debug\Library Management System.exe
+E:\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminHome.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.StudentHome.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.BookFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.HistoryFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.LoanListFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.MyBookFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.PasswordFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.RegistrationFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.SearchBookFrame.resources
+E:\Library Management System\Library Management System\obj\Debug\Library_Management_System.StudentFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\bin\Debug\Library Management System.exe.config
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library Management System.exe
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library Management System.csprojResolveAssemblyReference.cache
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminHome.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.BookFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.Form1.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.HistoryFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.LoanListFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.MyBookFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.PasswordFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.RegistrationFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.SearchBookFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.StudentFrame.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library_Management_System.StudentHome.resources
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.Cache
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+C:\Users\Fahim\Desktop\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+F:\C# Code\Library Management System\Library Management System\bin\Debug\Library Management System.exe.config
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library Management System.exe
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+F:\C# Code\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+F:\C# Code\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminHome.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.BookFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.Form1.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.HistoryFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.LoanListFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.MyBookFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.PasswordFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.RegistrationFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.SearchBookFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.StudentFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.StudentHome.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.Cache
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.DepositHistory.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.Email.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.SummaryFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.SellBookFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.InvoiceFrame.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library_Management_System.Invoice_Report.PrintInvoice.resources
+F:\C# Code\Library Management System\Library Management System\obj\Debug\RdlCompile.cache
+F:\C# Code\Library Management System\Library Management System\obj\Debug\RdlCompile.compiled
+F:\C# Code\Library Management System\Library Management System\obj\Debug\Library Management System.csprojResolveAssemblyReference.cache
